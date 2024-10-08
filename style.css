@@ -1,0 +1,54 @@
+main{
+  height: 685px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 12px green;
+  box-sizing: border-box;
+}
+.content-head{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.input-box{
+  border: 2px solid rgb(130, 174, 255);
+  width: 99%;
+  height: 100px;
+  text-align: right;
+  font-size:xx-large;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.button{
+  height: 100px;
+  width: 146px;
+  font-size: xx-large;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:nth-child(4n)
+{
+  background-color: rgb(106, 68, 177);
+}
+
+.button:nth-child(20)
+{
+  background-color: rgb(168, 145, 39);
+}
+
+.button:hover{
+  background-color: brown;
+}
